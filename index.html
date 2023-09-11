@@ -56,20 +56,20 @@
     <label for="nome">Nome:</label>
     <input type="text" name="nome" size="40px" placeholder="Digite seu nome!">
     <br>
-
+    <hr>
     <label for="email">Email:</label>
     <input type="email" name="email" placeholder="Digite seu email!">
     <br>
-
+    <hr>
     <label for="telefone">Telefone:</label>
     <input type="number" name="telefone" placeholder="Digite seu telefone!">
     <br>
-
+    <hr>
     <label for="mensagem">Mensagem:</label>
     <br>
     <textarea name="" cols="50" rows="4" placeholder="Descreva o motivo do contato!"></textarea>
     <br>
-
+    <hr>
     <p><strong>Assunto a tratar:</strong></p>
     <label for="assunto">Projetos</label>
     <input type="radio" name="assunto">
@@ -146,6 +146,68 @@
         <p>Telefone:(88)9 88388967 <br>
           E-mail:<b> <E-mail>dhiogovinius@icloud.com</E-mail> </b>
         </p>
+      </section>
+
+      <section>
+        <h3>Solicitação de orçamento</h3>
+        <form action="#" method="post">
+
+            <label for="nome">Nome:</label>
+               <input type="text"id="nome" name="nome"required> 
+           <hr>
+           
+           <label for="email">E-mail:</label>
+               <input type="email" id="email" name="email"required> 
+           <hr>
+           
+           <label for="telefone">Telefone:</label>
+               <input type="tel" id="telefone" name="telefone">
+           <hr>
+           
+           <label for="Empresa">Empresa:</label>
+               <input type="text" id="Empresa" name="Empresa">
+           <hr>
+           
+           <label for="produto">Produto:</label>
+               <input type="text" id="produto" name="produto">
+           <hr>
+           
+           <label for="quantidade">Quantidades:</label>
+               <input type="number" id="quantidade" name="quantidade">
+           <hr>
+           
+           <label for="data">Data:</label>
+               <input type="date" id="data" name="data">
+           <hr>
+           
+           <label for="detalhes">Detalhes da Solicitação:</label>
+               <textarea name="detalhes" id="detalhes" cols="30" rows="10" placeholder="DIGITE ALGO..."></textarea>
+           <hr> <br>
+           
+           <label for="como-nos-encontrou">Como nos encontrou? </label>
+               <select name="como-nos-encontrou" id="como-nos-encontrou">
+                   <option value="amigos">amigos</option>
+                   <option value="redes sociais">Redes sociais
+                   <option value="outros">Outros</option>
+                   </select>
+           <hr>
+           
+           <label for="#">Receber newsletters?</label>
+               <input type="checkbox" id="newsletters" name="newsletters" value="sim">
+               <label for="#">sim✔️</label>
+               <input type="checkbox" id="newsletters" name="newsletters">
+               <label for="#">nao❌</label>
+           <hr>
+           
+               <label for="termos">Aceitar termos e condições:</label>
+               <input type="checkbox" id="termos" name="termos" required >
+               <label for="termos">Concordo</label>
+           
+           <br>
+           <br>
+                <input type="submit"  value="Enviar">
+               
+           </form>
       </section>
 
     <footer>
